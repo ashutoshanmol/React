@@ -13,7 +13,7 @@ import Data from "./components/Data";
 function App() {
   return (
     <div className="App">
-      <Data/>
+      <Navbar />
      
       
     </div>
