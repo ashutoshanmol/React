@@ -14,6 +14,14 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Routes>
+        <Route path="/" element={<MainHome />} />
+        <Route path="/about" element={<AboutSection />} />
+        <Route path="/blog" element={<BlogCards />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/data" element={<Data />} />
+      </Routes>
+      <Footer />
      
       
     </div>
